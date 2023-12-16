@@ -1,0 +1,5 @@
+page/BasePage.class
+page/LoginPage.class
+util/BrowserFactory.class
+page/DashboardPage.class
+page/AddCustomerPage.class
