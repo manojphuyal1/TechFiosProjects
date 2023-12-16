@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-07T21:54:14 CDT" name="Default suite" finished-at="2023-10-07T21:54:26 CDT" duration-ms="11822">
+    <groups>
+    </groups>
+    <test started-at="2023-10-07T21:54:14 CDT" name="Default test" finished-at="2023-10-07T21:54:26 CDT" duration-ms="11822">
+      <class name="variousConcepts.Assignment">
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:variousConcepts.Assignment@5acf93bb]" started-at="2023-10-07T21:54:14 CDT" name="readConfig" finished-at="2023-10-07T21:54:14 CDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method is-config="true" signature="init()[pri:0, instance:variousConcepts.Assignment@5acf93bb]" started-at="2023-10-07T21:54:14 CDT" name="init" finished-at="2023-10-07T21:54:18 CDT" duration-ms="3464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testDropDown()[pri:0, instance:variousConcepts.Assignment@5acf93bb]" started-at="2023-10-07T21:54:18 CDT" name="testDropDown" finished-at="2023-10-07T21:54:23 CDT" duration-ms="5157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDropDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:variousConcepts.Assignment@5acf93bb]" started-at="2023-10-07T21:54:23 CDT" name="tearDown" finished-at="2023-10-07T21:54:26 CDT" duration-ms="3168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- variousConcepts.Assignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
