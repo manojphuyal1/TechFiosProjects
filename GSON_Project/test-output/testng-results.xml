@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testNG" duration-ms="35818" started-at="2023-08-18T21:31:21Z" finished-at="2023-08-18T21:31:57Z">
+    <groups>
+      <group name="regression">
+        <method signature="AddCustomerTest.userShouldBeAbleToAddCustomer()[pri:0, instance:test.AddCustomerTest@725bef66]" name="userShouldBeAbleToAddCustomer" class="test.AddCustomerTest"/>
+        <method signature="ListCustomerTest.userShouldBeAbleToAddCustomerFromListCustmer()[pri:0, instance:test.ListCustomerTest@2aaf7cc2]" name="userShouldBeAbleToAddCustomerFromListCustmer" class="test.ListCustomerTest"/>
+        <method signature="LoginTest.regression()[pri:0, instance:test.LoginTest@1ae369b7]" name="regression" class="test.LoginTest"/>
+        <method signature="LoginTest.validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@1ae369b7]" name="validUserShouldBeAbleToLogin" class="test.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@1ae369b7]" name="validUserShouldBeAbleToLogin" class="test.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="test" duration-ms="35818" started-at="2023-08-18T21:31:21Z" finished-at="2023-08-18T21:31:57Z">
+      <class name="test.AddCustomerTest">
+        <test-method status="PASS" signature="readJson()[pri:0, instance:test.AddCustomerTest@725bef66]" name="readJson" is-config="true" duration-ms="1" started-at="2023-08-18T16:31:26Z" finished-at="2023-08-18T16:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readJson -->
+        <test-method status="PASS" signature="userShouldBeAbleToAddCustomer()[pri:0, instance:test.AddCustomerTest@725bef66]" name="userShouldBeAbleToAddCustomer" duration-ms="12079" started-at="2023-08-18T16:31:26Z" finished-at="2023-08-18T16:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToAddCustomer -->
+      </class> <!-- test.AddCustomerTest -->
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="readJson()[pri:0, instance:test.LoginTest@1ae369b7]" name="readJson" is-config="true" duration-ms="19" started-at="2023-08-18T16:31:21Z" finished-at="2023-08-18T16:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readJson -->
+        <test-method status="PASS" signature="regression()[pri:0, instance:test.LoginTest@1ae369b7]" name="regression" duration-ms="2" started-at="2023-08-18T16:31:22Z" finished-at="2023-08-18T16:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression -->
+        <test-method status="PASS" signature="readJson()[pri:0, instance:test.LoginTest@1ae369b7]" name="readJson" is-config="true" duration-ms="1" started-at="2023-08-18T16:31:22Z" finished-at="2023-08-18T16:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readJson -->
+        <test-method status="PASS" signature="validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@1ae369b7]" name="validUserShouldBeAbleToLogin" duration-ms="4757" started-at="2023-08-18T16:31:22Z" finished-at="2023-08-18T16:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbleToLogin -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.ListCustomerTest">
+        <test-method status="PASS" signature="userShouldBeAbleToAddCustomerFromListCustmer()[pri:0, instance:test.ListCustomerTest@2aaf7cc2]" name="userShouldBeAbleToAddCustomerFromListCustmer" duration-ms="18950" started-at="2023-08-18T16:31:38Z" finished-at="2023-08-18T16:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToAddCustomerFromListCustmer -->
+        <test-method status="PASS" signature="readJson()[pri:0, instance:test.ListCustomerTest@2aaf7cc2]" name="readJson" is-config="true" duration-ms="0" started-at="2023-08-18T16:31:38Z" finished-at="2023-08-18T16:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readJson -->
+      </class> <!-- test.ListCustomerTest -->
+    </test> <!-- test -->
+  </suite> <!-- testNG -->
+</testng-results>

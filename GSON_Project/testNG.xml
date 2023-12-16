@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="testNG">
+	<test name="test">
+	<groups>
+		<run>
+			<include name="regression"/>
+		
+		</run>
+	</groups>
+		
+	
+		<classes>
+			<class name="test.LoginTest"></class>
+			<class name="test.AddCustomerTest"></class>
+			<class name="test.ListCustomerTest"></class>
+
+		</classes>
+	</test>
+</suite>
